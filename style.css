@@ -108,3 +108,23 @@ p{
     );
     box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
   }
+
+  @media(max-width:900px){
+    .grid{
+        display: block;
+    }
+    h1{
+        border-bottom: none;
+    }
+    ul{
+        border-right: none;
+    }
+    body{
+        text-align: center;
+        
+    }
+    body p{
+        margin: 50px;
+    }
+    
+  }
