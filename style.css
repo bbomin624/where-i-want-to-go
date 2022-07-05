@@ -4,69 +4,103 @@
     font-weight: normal;
     font-style: normal;
 }
-*{
+h1, h2{
     font-family: 'LeferiPoint-WhiteObliqueA';
 }
 
 body{
-    margin:0;
-
+    margin: 0;
     background-image: url(ian-battaglia-TAswQnt641A-unsplash.jpg);
     background-position: center;
     background-size: cover;
     color: white;
 }
-a{
-    text-decoration: none;
-    color: white;
-}
-ul{
-    text-align: center;
-    margin: 0;
-    width: 240px;
-    padding-left: 0;
-    border-right:1px solid grey;
-}
-li{
-    list-style-type: none;
-    margin:20px 0 20px 0;
-    font-size: 20px;
-}
+
 h1{
     font-size: 50px;
     text-align: center;
-    margin: 0;
-    padding: 40px;
-    border-bottom:1px solid grey;
+    margin-top: 50px
 }
+
+h1 a{
+    text-decoration: none;
+    color: white;
+}
+
 h2{
     font-size: 58px;
     margin-top:50px;
-    margin-bottom:140px;
 }
-h3{
-    margin: 40px;
-    font-size: 22px;
-}
+
 h4{
     font-size: 25px;
     margin-bottom: 45px;
 }
-.grid{
-    display: grid;
-    grid-template-columns: 320px 1fr;
-}
-.grid .article{
-    padding-left: 0px;
-}
-.north{
-    margin-top: 50px;
-}
+
 p{
     font-size: 20px;
     margin-right: 85px;
     margin-bottom: 70px;
 }
+
+.content{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+ul{
+    list-style-type: none;
+    background-color: rgb(161, 161, 161);
+    overflow: auto;
+    margin: 0;
+    padding-left: 420px;
+    padding-right: 420px;
+}
+
+li{
+    float: left;   
+}
+
+li a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover{
+    background-color: rgb(173, 173, 173);
+}
+
+.dropdown{
+    display: inline-block;
+    font-size: 20px;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a{
+    color: black;
+    display: block;
+    text-decoration: none;
+    text-align: left;
+    padding: 12px 16px;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+
 
 .bn632-hover {
     width: 120px;
