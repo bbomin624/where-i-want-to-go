@@ -1,5 +1,9 @@
 body{
     margin: 0;
+    background-image: url(ian-battaglia-TAswQnt641A-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
 }
 
 h1{
@@ -9,7 +13,7 @@ h1{
 
 ul{
     list-style-type: none;
-    background-color: gray;
+    background-color: rgb(161, 161, 161);
     overflow: auto;
     margin: 0;
     padding: 0;
