@@ -43,6 +43,24 @@ p{
     margin-bottom: 70px;
 }
 
+
+
+.addcountry{
+    
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
 .content{
     margin-left: 100px;
     margin-right: 100px;
@@ -53,8 +71,8 @@ ul{
     background-color: rgb(161, 161, 161);
     overflow: auto;
     margin: 0;
-    padding-left: 420px;
-    padding-right: 420px;
+    padding-left: 320px;
+    padding-right: 0px;
 }
 
 li{
